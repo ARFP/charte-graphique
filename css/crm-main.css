@@ -1,0 +1,28 @@
+:root {
+    --body-bg: #F5F5F5;
+    --body-cl: #111111;
+    --crm-primary: #1b296a;
+    --crm-secondary: #ed6840;
+    --crm-red: #cf2d4f;
+    --crm-blue: #7db9da;
+    --crm-yellow: #f6af2e;
+    --crm-green: #488287;
+    --crm-hv-light: #7db9da15;
+    --crm-hv-dark: #48828710;
+    --border-radius: .4rem;
+}
+
+body.alt {
+    --body-bg: var(--crm-primary);
+    --body-cl: #D9D9FF; 
+}
+
+@media print {
+    body, body.alt {
+        --body-bg: #F5F5F5;
+        --body-cl: #111111;
+    }
+    body > header nav {
+        display: none;
+    }
+}
