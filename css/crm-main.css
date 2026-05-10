@@ -26,3 +26,21 @@ body.alt {
         display: none;
     }
 }
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-size: 1.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: var(--body-bg);
+    color: var(--body-cl);
+}
