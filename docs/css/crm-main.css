@@ -3,10 +3,10 @@
     --body-cl: #111111;
     --crm-primary: #1b296a;
     --crm-secondary: #ed6840;
-    --crm-red: #cf2d4f;
-    --crm-blue: #7db9da;
-    --crm-yellow: #f6af2e;
-    --crm-green: #488287;
+    --crm-rf: #cf2d4f;
+    --crm-ofp: #7db9da;
+    --crm-services: #f6af2e;
+    --crm-mecenat: #488287;
     --crm-hv-light: #7db9da15;
     --crm-hv-dark: #48828710;
     --border-radius: .4rem;

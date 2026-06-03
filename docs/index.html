@@ -4,16 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Charte Graphique CRM</title>
-    <link rel="stylesheet" href="../css/font-awesome.css">
-    <link rel="stylesheet" href="../css/crm-main.css">
-    <script src="../js/crm-main.js"></script>
+    <link rel="stylesheet" href="./css/font-awesome.css">
+    <link rel="stylesheet" href="./css/crm-main.css">
+    <script src="./js/crm-main.js"></script>
+    <style>
+        .container { max-width:1100px; margin:2.4rem auto; padding:1.2rem; }
+        .palette { display:flex; flex-wrap:wrap; gap:1.2rem; }
+        .swatch { width:160px; height:96px; border-radius:var(--border-radius); box-shadow:0 1px 4px rgba(0,0,0,.08); display:flex; flex-direction:column; justify-content:flex-end; padding:0.8rem; color:var(--body-cl); }
+        .swatch.dark { color: #fff; text-shadow:0 1px 0 rgba(0,0,0,.2); }
+        .swatch .name { font-weight:700; font-size:1.4rem; }
+        .swatch .var { font-size:1.1rem; opacity:.95; }
+        .demo { margin-top:2.4rem; background:rgba(0,0,0,0.03); padding:1.2rem; border-radius:var(--border-radius); }
+        .hr { height:1px; background:rgba(0,0,0,0.06); margin:2rem 0; }
+    </style>
 </head>
 <body>
     <header>
         <h1>Charte Graphique CRM</h1>
     </header>   
     <main>
-       
+        <div class="container">
+            <section>
+                <h2>Palette de couleurs</h2>
+                <p>Variables CSS définies dans <a href="./css/crm-main.css">crm-main.css</a>.</p>
+                <div class="palette" aria-label="Palette de couleurs">
+                    <div class="swatch dark" style="background:var(--crm-primary);">
+                        <div class="name">Primaire</div>
+                        <div class="var">--crm-primary</div>
+                    </div>
+                    <div class="swatch" style="background:var(--crm-secondary)">
+                        <div class="name">Secondaire</div>
+                        <div class="var">--crm-secondary</div>
+                    </div>
+                    <div class="swatch dark" style="background:var(--crm-rf)">
+                        <div class="name">RF</div>
+                        <div class="var">--crm-rf</div>
+                    </div>
+                    <div class="swatch" style="background:var(--crm-ofp)">
+                        <div class="name">OFP</div>
+                        <div class="var">--crm-ofp</div>
+                    </div>
+                    <div class="swatch" style="background:var(--crm-services)">
+                        <div class="name">Services</div>
+                        <div class="var">--crm-services</div>
+                    </div>
+                    <div class="swatch dark" style="background:var(--crm-mecenat)">
+                        <div class="name">Mécénat</div>
+                        <div class="var">--crm-mecenat</div>
+                    </div>
+                    <div class="swatch" style="background:var(--body-bg)">
+                        <div class="name">Fond</div>
+                        <div class="var">--body-bg</div>
+                    </div>
+                    <div class="swatch dark" style="background:var(--body-cl)">
+                        <div class="name">Texte</div>
+                        <div class="var">--body-cl</div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="hr" role="separator"></div>
+
+            <section>
+                <h2>Exemples de typographie</h2>
+                <div class="demo">
+                    <h1>Exemple H1 — Titre principal</h1>
+                    <h2>Exemple H2 — Titre secondaire</h2>
+                    <h3>Exemple H3 — Sous-titre</h3>
+                    <h4>Exemple H4 — Petit titre</h4>
+                    <p>Paragraphe d'exemple : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+                    <p><small>Texte secondaire / légende — utilise une taille réduite.</small></p>
+                    <p><a href="#">Lien exemple</a> — utilisez les couleurs secondaires pour les actions importantes.</p>
+                    <button style="background:var(--crm-secondary); color:#fff; border:0; padding:0.6rem 1.2rem; border-radius:var(--border-radius);">Bouton primaire</button>
+                </div>
+            </section>
+        </div>
     </main>
     <footer>
         <p>&copy; 2026 CRM. Tous droits réservés.</p>
