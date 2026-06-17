@@ -1,24 +1,23 @@
 # Icônes UTF-8 pour Applications Web
 
 **Objectif** 
-
 - Enrichir l'interface d'une application web sans charger de ressources externes
 
 **Ressources**
-
 - [Référentiel d'accessibilité numérique](https://accessibilite.numerique.gouv.fr/)
 - [Toutes les icônes UTF-8](https://www.utf8icons.com/)
 
-**Conseil d'accessibilité** 
-
-Les lecteurs d'écran lisent la description textuelle native des émojis. Pour les icônes purement décoratives, masquez-les pour ne pas perturber la navigation des utilisateurs malvoyants :
+**Conseil d'accessibilité (A11y)** 
+- Les lecteurs d'écran lisent la description textuelle native des émojis. Pour les icônes purement décoratives, masquez-les pour ne pas perturber la navigation des utilisateurs malvoyants :
 
 ```html
 <span aria-hidden="true">🗑️</span> Supprimer
 ```
 
 
-## Icônes génériques
+# Communs 
+
+Ce tableau regroupe les caractères Unicode les plus utilisés.
 
 | Icône | Nom | Utilisation |
 | :---: | :--- | :--- |
@@ -54,7 +53,7 @@ Les lecteurs d'écran lisent la description textuelle native des émojis. Pour l
 
 ## Contextes Métier
 
-Icônes permettant de contextualiser des fonctionnalités métier.
+Ces icônes permettent de contextualiser rapidement des fonctionnalités dans des applications sectorielles (E-commerce, Logistique, Finance, IoT, RH).
 
 | Icône | Nom | Contexte d'application / Usage cible |
 | :---: | :--- | :--- |
@@ -77,8 +76,11 @@ Icônes permettant de contextualiser des fonctionnalités métier.
 | 📆 | Calendrier | Prise de rendez-vous, planning, deadlines |
 | 🎓 | Toque d'étudiant | Modules de formation, e-learning, compétences |
 | **Technique & IoT (Internet des Objets)** | | |
-| 🖥️ | Écran d'ordinateur | Monitoring de serveurs, clients légers |
 | 📱 | Smartphone | Application mobile, responsive, terminaux |
+| 📲 | Tablette |  Application Mobile, Responsive, terminaux |
+| 💻 | Laptop | Ordinateur portable, clients légers  |
+| 🖥️ | Écran d'ordinateur | Monitoring de serveurs, clients légers |
+| 🖨️ | Imprimante | Bouton imprimer |
 | 📡 | Antenne | Statut réseau, signal Wi-Fi / Bluetooth, IoT |
 | 🔋 | Batterie | État de charge, économie d'énergie, capteurs |
 | ⚡ | Éclair | Performance, exécution rapide, action immédiate |
@@ -91,7 +93,7 @@ Icônes permettant de contextualiser des fonctionnalités métier.
 
 # Alimentaire & Restauration
 
-Icônes pour catégoriser des menus, des ingrédients, des allergènes ou des types de distributeurs.
+Ces icônes sont idéales pour catégoriser des menus, des ingrédients, des allergènes ou des types de distributeurs.
 
 | Icône | Nom | Exemple d'utilisation |
 | :---: | :--- | :--- |
