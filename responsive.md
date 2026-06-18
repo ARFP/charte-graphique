@@ -1,8 +1,60 @@
-# Les breakpoints CSS recommandés
+# CSS et Affichage adaptatif
 
-En 2026, il n’existe **plus de standard officiel universel**  mais on retrouve des **valeurs pragmatiques basées sur les périphériques réels dans les frameworks tels que Tailwind / Bootstrap / Material**.
+Le **responsive design** consiste à adapter automatiquement un site web à la taille de l’écran.
+
+Par exemple pour un même site :
+
+- 📱 Sur mobile → 1 colonne, gros boutons
+- 📲 Sur tablette → 2 colonnes
+- 💻 Sur ordinateur → plusieurs colonnes
+
+Le contenu reste le même, **mais l’affichage change**
+
+## Objectif
+
+- Lire facilement sur tous les écrans  
+- Naviguer sans zoom  
+- Améliorer l’expérience utilisateur  
+
+## Comment ça fonctionne ?
+
+On utilise :
+
+- ✅ **CSS (media queries)** → adapter selon la taille
+- ✅ **Flexbox / Grid** → organiser les éléments
+- ✅ **Unités fluides (%, rem)** → tailles adaptatives
+
+## Important à comprendre
+
+Le responsive design :
+
+* ❌ Ce n’est pas créer plusieurs sites
+* ✅ C’est **un seul site adaptable**
+
+## À retenir
+
+```markdown
+> Un site responsive s’adapte à l’écran de l’utilisateur automatiquement.
+```
+
+## Bonnes pratiques
+
+* Mobile-first (commencer par le mobile)
+* Tester sur plusieurs tailles d’écran
+* Adapter quand le design “casse”
+
+
+
+## Les breakpoints CSS
+
+Les breakpoints CSS sont des points de rupture utilisés en responsive design pour adapter l’affichage d’un site web en fonction de la taille de l’écran (ordinateur, tablette, mobile). Concrètement, ce sont des valeurs de largeur (en pixels, rem, etc.) à partir desquelles on change le style avec des media queries. Par exemple, on peut afficher une navigation horizontale sur grand écran et la transformer en menu burger sur mobile. Les breakpoints permettent donc de créer des interfaces flexibles, lisibles et adaptées à tous les supports, en appliquant des règles CSS différentes selon le contexte d’affichage.
+
+
+
 
 ## 1. Breakpoints les plus utilisés
+
+En 2026, il n’existe **plus de standard officiel universel**  mais on retrouve des **valeurs pragmatiques basées sur les périphériques réels dans les frameworks tels que Tailwind / Bootstrap / Material**.
 
 ```css
 /* Mobile first */

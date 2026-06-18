@@ -107,11 +107,10 @@ On utilise `@container` au lieu de `@media`.
 Cette approche permet de créer des **composants 100% autonomes**. On code une carte produit une seule fois. Qu'elle soit injectée dans un layout en 3 colonnes, dans un slider mobile, ou tout en haut en mode "vedette", elle adaptera son design toute seule en fonction de l'espace que le layout lui accorde.
 
 
-## En résumé : La boîte à outils du développeur moderne
+## En résumé : La boîte à outils du développeur frontend
 
 | Outil | Ce qu'il écoute | Meilleur cas d'usage |
 | --- | --- | --- |
 | **Media Queries `(width >= 768px)`** | La fenêtre du navigateur (*Viewport*) | L'architecture globale de la page (Header, Footer, passage d'une grille de 1 à 4 colonnes). |
 | **Fonction `clamp()`** | Une unité dynamique (ex: `vw`, `%`) | La typographie fluide et les espacements élastiques sans générer de lignes de code superflues. |
 | **Container Queries `@container`** | Le parent direct du composant | Le design interne des composants réutilisables (cartes, formulaires, menus, widgets). |
-
