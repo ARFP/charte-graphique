@@ -6,7 +6,7 @@ document.getElementById('theme').addEventListener('click', (e) => {
     document.body.classList.toggle('alt');
     localStorage.setItem('theme', document.body.classList.contains('alt') ? 'alt' : '');
 });
-
+/*
 var reposElem = document.getElementById('repos');
 
 if(reposElem != null) {
@@ -24,4 +24,4 @@ if(reposElem != null) {
         
     }
     // console.log(response);
-}
+}*/

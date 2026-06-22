@@ -1,0 +1,169 @@
+.header, main, footer {
+    background-color: var(--surface-bg);
+    width: 1280px;
+    margin: 1rem auto;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .8);
+    border-radius: .5rem;
+}
+
+.header {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.footer {
+    text-align: center;
+    padding: 1.2rem;
+    font-size: 1.2rem;
+    color: var(--body-cl);
+}
+
+.container {
+    max-width: 100%;
+    margin: 1rem auto 2.4rem auto;
+    padding: 1.2rem;
+}
+
+/* TEXTE */
+
+p {
+    text-align: justify;
+}
+
+/* COULEURS */
+
+.badge {
+    display: inline-block;
+    padding: .6rem 1.2rem;
+}
+
+.primary {
+    background-color: var(--crm-primary);
+    color: var(--light);
+}
+
+.secondary {
+    background-color: var(--crm-secondary);
+    color: var(--dark);
+}
+
+.rf {
+    background-color: var(--crm-rf);
+    color: var(--light);
+}
+
+.ofp {
+    background-color: var(--crm-ofp);
+    color: var(--dark);
+}
+
+.services {
+    background-color: var(--crm-services);
+    color: var(--dark);
+}
+
+.mecenat {
+    background-color: var(--crm-mecenat);
+    color: var(--light);
+}
+
+
+.error {
+    background-color: var(--crm-error);
+    color: var(--light);
+}
+.warning {
+    background-color: var(--crm-warning);
+    color: var(--light);
+}
+.info {
+    background-color: var(--crm-info);
+    color: var(--light);
+}
+.success {
+    background-color: var(--crm-success);
+    color: var(--light);
+}
+
+/* BOUTONS */
+
+.btn {
+    background: var(--crm-primary);
+    color: #fff;
+    border: 0;
+    padding: 0.6rem 1.2rem;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: var(--crm-secondary);
+}
+
+.btn.outline {
+    background: transparent;
+    color: var(--crm-primary);
+    border: 1px solid var(--crm-primary);
+}
+
+.btn.secondary {
+    background:var(--crm-secondary); 
+}
+
+/* BLOCS DE CODE */
+
+code {
+    background-color: #CCCCFF44;
+}
+
+
+
+
+.palette {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+}
+
+.swatch {
+    width: 11%;
+    height: 96px;
+    border-radius: var(--border-radius);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .8);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0.8rem;
+    color: var(--body-cl);
+}
+
+.swatch.dark {
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .2);
+}
+
+.swatch .name {
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.swatch .var {
+    font-size: 1.1rem;
+    opacity: .95;
+}
+
+.demo {
+    margin-top: 2.4rem;
+    background: rgba(0, 0, 0, 0.03);
+    padding: 1.2rem;
+    border-radius: var(--border-radius);
+}
+
+.hr {
+    height: 1px;
+    background: rgba(0, 0, 0, 0.06);
+    margin: 2rem 0;
+}

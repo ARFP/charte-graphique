@@ -1,4 +1,6 @@
 :root {
+    --dark: #111111;
+    --light: #F5F5F5;
     /* MODE CLAIR (Par défaut) */
     --body-bg: #F5F5F5;
     --body-cl: #111111;
@@ -21,30 +23,26 @@
     /* Polices */
     --crm-txt-header: Georgia, serif;
     --crm-txt-body: Verdana, Geneva, Tahoma, sans-serif;
-    --crm-txt-action: Arial, sans-serif;
+
+    /* Style */
+    --border-radius: .5rem;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
         /* MODE SOMBRE (Automatique) */
-        /* Structure */
-        --body-bg: #121212;      /* Fond sombre (recommandé Material Design) */
+
+        --body-bg: #121212;      /* Fond sombre */
         --body-cl: #E0E0E0;      /* Texte gris très clair (évite le blanc pur agressif) */
         --surface-bg: #1E1E1E;   /* Fond des cartes plus clair que le body pour le relief */
 
-        /* Thème CRM adapté pour le mode sombre (Teintes adoucies pour l'accessibilité) */
-        --crm-primary: #3f51b5;     /* Bleu légèrement plus clair pour rester visible */
-        --crm-secondary: #ff7a50;   /* Orange adouci */
-        
-        /* Couleurs du thème CRM restent identiques mais 
-           ne doivent être utilisées que sur la surface-bg ou en bordure */
-
-        /* Événements et actions (Teintes pastel/lumineuses pour fond sombre) */
-        --crm-error: #ef5350;       /* Rouge plus clair */
-        --crm-warning: #ffb74d;     /* Orange/Jaune plus clair */
-        --crm-info: #29b6f6;        /* Bleu plus clair */
-        --crm-success: #66bb6a;     /* Vert plus clair */
     }
+}
+
+body.alt {
+    --body-bg: #111111;
+    --body-cl: #F5F5F5;
+    --surface-bg: #1E1E1E; 
 }
 
 @media print {
@@ -57,8 +55,12 @@
     }
 }
 
+
+
+
 * {
     box-sizing: border-box;
+    border-radius: var(--border-radius)
 }
 
 html {
@@ -79,6 +81,14 @@ h1, h2, h3 {
     font-family: var(--crm-txt-header);
 }
 
-button {
-    font-family: var(--crm-txt-action);
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    
+}
+
+input, button, textarea {
+    font-family: var(--crm-txt-body);
 }
