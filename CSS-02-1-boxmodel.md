@@ -1,6 +1,6 @@
 # Le Modèle de Boîte et le Positionnement CSS
 
-**Objectif :** Apprendre à placer les éléments sur la page web avant de créer un site responsive.
+**Objectif :** Apprendre à placer les éléments sur une page web.
 
 
 ## 1. Le Modèle de Boîte (*Box Model*)
@@ -22,7 +22,7 @@ Chaque élément dispose de [4 zones](https://developer.mozilla.org/fr/docs/Lear
 
 ![](./assets/box-model.svg)
 
-Chaque zone (à l'exception du contenu) possède ses 4 côtés définis, ce qui permet de les manipuler individuellement ; le contenu, quant à lui, ne possède qu'une largeur et une hauteur : 
+Chaque zone (à l'exception du contenu) possède 4 côtés définis, ce qui permet de les manipuler individuellement ; le contenu, quant à lui, ne possède qu'une largeur et une hauteur : 
 
 ![](./assets/box-model-detail.svg)
 

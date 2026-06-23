@@ -17,53 +17,78 @@ graph TD
 
 ---
 
+## Introduction CSS
+
+### 1. HTML & CSS
+
+* **Le HTML :**  les murs et la structure de la maison.
+* **Le CSS :** la peinture, la décoration et l'agencement des pièces.
+
+### 2. La syntaxe d'une règle CSS
+
+Il faut décoder l'anatomie d'une ligne de code pour qu'ils sachent la lire :
+
+* **Le Sélecteur** : *Qui* je veux modifier ? (Exemple : `h1`)
+* **La Propriété** : *Quoi* je veux modifier ? (Exemple : `color`)
+* **La Valeur** : *Comment* je veux le modifier ? (Exemple : `blue`)
+
+```css
+sélecteur {
+    propriété: valeur;
+}
+```
+
+
+
+
 ### Module 1 : Les Fondations du Layout 
 
 **Objectif :** Maîtriser le positionnement dans l'espace à deux dimensions avant de le rendre responsive.
 
-* **1. BoxModel : Disposition**
-* Les éléments : Content, Padding, Margin, Border.
-* Les boites : Display, Position.
-* Les couleurs et les contrastes
+* **1.1 Introduction CSS**
+    * Le rôle du CSS.
+    * La syntaxe de base.
 
+* **1.2 BoxModel : Disposition**
+    * Les éléments : Content, Padding, Margin, Border.
+    * Les boites : Display, Position.
+    * Les couleurs et les contrastes.
 
 * **1.2 Flexbox : L'alignement sur un axe unique**
-* Le concept : Parent `display: flex` / Enfants.
-* Les axes : `flex-direction` (horizontal ou vertical).
-* L'alignement : `justify-content` (répartition) et `align-items` (alignement).
-
+    * Le concept : Parent `display: flex` / Enfants.
+    * Les axes : `flex-direction` (horizontal ou vertical).
+    * L'alignement : `justify-content` (répartition) et `align-items` (alignement).
 
 * **1.3 CSS Grid : La structure en deux dimensions**
-* Le concept : Les colonnes et les lignes.
-* La puissance de `grid-template-columns` et de la fonction `repeat()`.
-* L'espacement natif sans marge : `gap`.
+    * Le concept : Les colonnes et les lignes.
+    * La puissance de `grid-template-columns` et de la fonction `repeat()`.
+    * L'espacement natif sans marge : `gap`.
 
 
 
 ---
 
-### 📱 Module 2 : L'Intégration Mobile-First et le Responsive de Base
+### Module 2 : L'Intégration Mobile-First et le Responsive de Base
 
 **Objectif :** Appliquer le support *responsive.md* pour créer un site adaptable.
 
 * **2.1 Pourquoi commencer par le mobile ?**
-* Contraintes d'espace et de performance.
-* La structure par défaut sans Media Query.
+    * Contraintes d'espace et de performance.
+    * La structure par défaut sans Media Query.
 
 
 * **2.2 Les points de rupture (Breakpoints)**
-* Mise en pratique du tableau standard : `768px` / `1024px` / `1280px`.
-* Écriture des premières requêtes `@media (min-width: ...)`.
-
+    * Mise en pratique du tableau standard : `768px` / `1024px` / `1280px`.
+    * Écriture des premières requêtes `@media (min-width: ...)`.
 
 * **2.3 Grid Auto-adaptatif (Le responsive sans Media Query)**
-* Utilisation de `grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))`.
+    * Utilisation de `grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))`.
 
 
 
 ---
 
-### ♿ Module 3 : Accessibilité (RGAA), Design Défensif et Application de la Charte CRM
+### Module 3 : Accessibilité (RGAA), Design Défensif et Application de la Charte CRM
 
 **Objectif :** Connecter la technique aux règles strictes du *README.md*.
 
@@ -81,7 +106,7 @@ graph TD
 
 ---
 
-### 🚀 Module 4 : UI Fluide et Responsive Avancé
+### Module 4 : UI Fluide et Responsive Avancé
 
 **Objectif :** Passer à la vitesse supérieure avec le support *responsive-senior.md*.
 
@@ -101,7 +126,7 @@ graph TD
 
 ---
 
-### 🛠️ Module 5 : Cas Pratique de Synthèse (Le livrable d'évaluation)
+### Module 5 : Cas Pratique de Synthèse (Le livrable d'évaluation)
 
 **Objectif :** Valider les acquis de manière autonome (Créer).
 
@@ -116,7 +141,7 @@ graph TD
 
 ---
 
-## 🔍 Éléments clés spécifiques à intégrer (Pour vos prochains supports)
+## Éléments clés spécifiques à intégrer (prochains supports)
 
 Pour maintenir l'accessibilité aux apprenants en situation de handicap (TDAH / TSA), les prochains documents devront inclure :
 
