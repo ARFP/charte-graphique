@@ -5,9 +5,6 @@
 
 ## 1. Le Modèle de Boîte (*Box Model*)
 
-<iframe width="800" height="450" src="https://www.youtube.com/watch?v=KCWFaZJx_Ig" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
 En CSS, chaque élément HTML est une **[boîte rectangulaire](https://developer.mozilla.org/fr/docs/Learn_web_development/Core/Styling_basics/Box_model)**.
 Chaque élément dispose de [4 zones](https://developer.mozilla.org/fr/docs/Learn_web_development/Core/Styling_basics/Box_model#quest-ce_que_le_mod%C3%A8le_de_bo%C3%AEte_css) (de l'intérieur vers l'extérieur) :
 
@@ -72,7 +69,7 @@ Pour déplacer une boîte précisément, on change son mode de positionnement :
 
 ## 3. Les Couleurs et les Contrastes
 
-Pour l'accessibilité de vos interfaces (norme RGAA), vous devez respecter deux règles strictes sur les couleurs :
+Pour l'accessibilité de vos interfaces (norme [RGAA](https://accessibilite.numerique.gouv.fr/)), vous devez respecter deux règles strictes sur les couleurs :
 
 ### Utiliser uniquement la palette de la charte
 
@@ -80,12 +77,12 @@ Vous devez utiliser uniquement les codes couleurs fournis dans les consignes ou 
 
 ### Assurer un contraste suffisant
 
-Le texte doit être très facile à lire. La couleur du texte doit contraster fortement avec la couleur du fond :
+Le texte doit être très facile à lire. [La couleur du texte doit contraster fortement avec la couleur du fond](https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#3) :
 
 * Sur un fond clair, afficher le texte avec une couleur sombre.
 * Sur un fond sombre , afficher le texte avec une couleur claire.
 
-| Couleur de fond | Type de fond | Couleur de texte obligatoire |
+| Couleur de fond | Type de fond | Couleur de texte |
 | --- | --- | --- |
 | `#FFFFFF` | Clair | Sombre (Ex: `#111111`) |
 | `#1B296A` | Sombre | Clair (Ex: `#FFFFFF`) |
@@ -99,3 +96,7 @@ Le texte doit être très facile à lire. La couleur du texte doit contraster fo
 1. Transformez-le en `inline-block`.
 2. Utilisez le `padding` pour que sa zone cliquable mesure au moins $44\text{px} \times 44\text{px}$ pour les téléphones mobiles.
 3. Appliquez la couleur de fond `#1B296A` et assurez-vous que le texte reste lisible en appliquant une couleur adaptée.
+
+## Ressources 
+
+<iframe width="800" height="450" src="https://www.youtube.com/watch?v=KCWFaZJx_Ig" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

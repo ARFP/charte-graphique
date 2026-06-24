@@ -1,4 +1,4 @@
-## Progression pédagogique : Architecture du module UI
+## Progression pédagogique : UI & UX
 
 
 ```mermaid
@@ -15,51 +15,37 @@ graph TD
 
 ```
 
----
+### 1. Les Fondations du Layout 
 
-## Introduction CSS
+**Objectif :** Maîtriser le positionnement dans l'espace à deux dimensions d'une fenêtre.
 
-### 1. HTML & CSS
-
-* **Le HTML :**  les murs et la structure de la maison.
-* **Le CSS :** la peinture, la décoration et l'agencement des pièces.
-
-### 2. La syntaxe d'une règle CSS
-
-Il faut décoder l'anatomie d'une ligne de code pour qu'ils sachent la lire :
-
-* **Le Sélecteur** : *Qui* je veux modifier ? (Exemple : `h1`)
-* **La Propriété** : *Quoi* je veux modifier ? (Exemple : `color`)
-* **La Valeur** : *Comment* je veux le modifier ? (Exemple : `blue`)
-
-```css
-sélecteur {
-    propriété: valeur;
-}
-```
-
-
-
-
-### Module 1 : Les Fondations du Layout 
-
-**Objectif :** Maîtriser le positionnement dans l'espace à deux dimensions avant de le rendre responsive.
-
-* **1.1 Introduction CSS**
+* **1.1 [Introduction CSS](./CSS-01-1-intro.md)**
     * Le rôle du CSS.
     * La syntaxe de base.
 
-* **1.2 BoxModel : Disposition**
+* **1.2 [Les sélecteurs CSS](./CSS-02-1-selecteurs.md)**
+    * Les différents sélecteurs.
+    * Les pseudos-classes.
+    * Le combinateur descendant
+
+* **1.3 [Héritage et Unités](./CSS-02-1-selecteurs.md)**
+    * Le principe de l'héritage en cascade.
+    * Les unités obsolues et relatives.
+
+* **1.4 [BoxModel : Disposition](./CSS-02-1-boxmodel.md)**
     * Les éléments : Content, Padding, Margin, Border.
+    * Le Defensive Design : box-sizing
     * Les boites : Display, Position.
-    * Les couleurs et les contrastes.
+    * Accessibilité : Les couleurs et les contrastes.
 
-* **1.2 Flexbox : L'alignement sur un axe unique**
+* **1.5 [Flexbox : L'alignement sur un axe unique](./)**
     * Le concept : Parent `display: flex` / Enfants.
-    * Les axes : `flex-direction` (horizontal ou vertical).
-    * L'alignement : `justify-content` (répartition) et `align-items` (alignement).
+    * Les axes : `flex-direction`.
+    * L'alignement et la répartition : `justify-content` et `align-items`.
+    * L'espacement natif sans marge : `gap`.
+    * Le comportement en mode Droite à Gauche (RTL).
 
-* **1.3 CSS Grid : La structure en deux dimensions**
+* **1.6 [CSS Grid : La structure en deux dimensions](./)**
     * Le concept : Les colonnes et les lignes.
     * La puissance de `grid-template-columns` et de la fonction `repeat()`.
     * L'espacement natif sans marge : `gap`.

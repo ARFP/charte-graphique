@@ -29,7 +29,7 @@ sélecteur {
 | **La Propriété** | **Quoi** est modifié ? (La caractéristique) | `color` (la couleur du texte) |
 | **La Valeur** | **Comment** est-ce modifié ? (Le résultat souhaité) | `#1b296a` (bleu) |
 
-Traduction en CSS de l'exemple ci-dessus : 
+Traduction de l'exemple ci-dessus en CSS : 
 
 ```css
 h1 {
@@ -68,7 +68,7 @@ Cette ligne sert à **relier** un fichier HTML (le contenu) avec un fichier CSS 
 ### Deux règles importantes pour éviter les erreurs :
 
 1. **L'emplacement :** Cette ligne doit être écrite **avant** la fermeture de la balise `</head>`.
-2. **Le nom du fichier :** Le nom écrit dans le `href` doit être exactement le même que le nom de votre fichier (attention aux majuscules et à l'extension `.css`).
+2. **Le nom du fichier :** Le chemin indiqué dans l'attribut `href` doit pointer vers le  fichier (attention aux majuscules et à l'extension `.css`). Le chemin peut être relatif ou absolu.
 
 ---
 
