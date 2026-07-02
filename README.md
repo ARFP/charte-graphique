@@ -73,7 +73,8 @@ Pour gérer les actions et les messages de notification, utilisez obligatoiremen
 
 ## Polices
 
-Sauf mention contraire, utilisez les polices suivantes. Pour le corps de la page `crm-txt-body`, choisissez Verdana **OU** Arial.
+Sauf mention contraire, utilisez les polices suivantes.  
+Pour le corps de la page `crm-txt-body`, choisissez Verdana **OU** Arial.
 
 | Police | Identifiant | Description / Utilisation |
 | :--- | :--- | :--- |

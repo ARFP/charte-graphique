@@ -8,7 +8,7 @@
 - [Toutes les icônes UTF-8](https://www.utf8icons.com/)
 
 **Conseil d'accessibilité (A11y)** 
-- Les lecteurs d'écran lisent la description textuelle native des émojis. Pour les icônes purement décoratives, masquez-les pour ne pas perturber la navigation des utilisateurs malvoyants :
+- Les lecteurs d'écran lisent la description textuelle native des émojis. Pour les icônes purement décoratives, [masquez-les](https://developer.mozilla.org/fr/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-hidden) pour ne pas perturber la navigation des utilisateurs malvoyants :
 
 ```html
 <span aria-hidden="true">🗑️</span> Supprimer
@@ -35,6 +35,7 @@ Ce tableau regroupe les caractères Unicode les plus utilisés.
 | 📂 | Dossier ouvert | Gestionnaire de fichiers |
 | 📄 | Document | Fiche / Article / Log |
 | 🔗 | Maillon | Lien hypertexte / Copier le lien |
+| ≡ | Menu | Menu responsive |
 | 🍔 | Menu | Menu responsive (alternative burger) |
 | **Statuts & Validation** | | |
 | ✅ | Coché vert | Succès / Validation / Terminé |
