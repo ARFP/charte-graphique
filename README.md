@@ -103,12 +103,32 @@ Sauf mention contraire, utilisez les points de rupture suivants :
 
 ```css
 :root {
-    
+    --body-bg: #F5F5F5;
+    --body-cl: #111111;
+    --surface-bg: #FFFFFF;   /* Fond des cartes et éléments d'interface */
+
+    /* Couleurs du thème CRM */
+    --crm-primary: #1b296a;
+    --crm-secondary: #ed6840;
+    --crm-rf: #cf2d4f;
+    --crm-ofp: #7db9da;
+    --crm-services: #f6af2e;
+    --crm-mecenat: #488287;
+
+    /* Couleurs d'état / Événements */
+    --crm-error: #d32f2f;
+    --crm-warning: #e67e22;
+    --crm-info: #0288d1;
+    --crm-success: #2e7d32;
+
+    /* Polices */
+    --crm-txt-header: Georgia, serif;
+    --crm-txt-body: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        
+        /* A implémenter : mode sombre */
     }
 }
 
@@ -127,5 +147,3 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 1600px) { }
 @media print { }
 ```
-
----

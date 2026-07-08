@@ -1,5 +1,5 @@
 <!DOCTYPE html><html><head>
-      <title>README</title>
+      <title>utf8icons</title>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       
@@ -27,305 +27,516 @@
     <body for="html-export">
       <div class="crossnote markdown-preview  ">
       
-<style>
-.crm-primary, .crm-secondary, .crm-rf, .crm-ofp, .crm-services, .crm-mecenat, .body-bg, .body-cl, .crm-error, .crm-warning, .crm-info, .crm-success, .surface-bg { display: inline-block; height: 20px; width: 20px; border:1px solid black }
-.body-bg { background-color: #F5F5F5; }
-.body-cl { background-color: #111111; }
-.surface-bg { background-color: #FFFFFF; }
-.crm-primary { background-color: #1b296a; }
-.crm-secondary { background-color: #ed6840;} 
-.crm-rf { background-color: #cf2d4f;} 
-.crm-ofp { background-color: #7db9da;} 
-.crm-services{ background-color: #f6af2e;} 
-.crm-mecenat { background-color: #488287;} 
-.crm-error { background-color: #d32f2f;} 
-.crm-warning { background-color: #e67e22;} 
-.crm-info { background-color: #0288d1;} 
-.crm-success { background-color: #2e7d32;} 
-.logo { width: 240px; margin:auto; }
-</style>
-<p><img src="./docs/logo/crm-logo.png" alt="CRM Logo" class="logo"></p>
-<h1 id="charte-graphique-tp-dwwmcda">Charte Graphique TP DWWM/CDA </h1>
-<p>Sauf mention contraire dans les consignes du TP, vous devez respecter les règles suivantes dans vos interfaces utilisateur.</p>
-<h2 id="règles-de-base">Règles de base </h2>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">Règle</th>
-<th style="text-align:left">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left"><strong>Éco Conception</strong></td>
-<td style="text-align:left">Toujours prévoir un mode clair <strong>et</strong> un mode sombre et un mécanisme (bouton ou interrupteur) permettant de basculer entre les 2 modes<br>Les images doivent être optimisées en taille et en poids.<br>Une page web: &lt; 2 Mo (html, css, js, images etc...).</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Mobile first</strong></td>
-<td style="text-align:left">Concevoir l'interface pour les écrans mobiles en premier, puis l'adapter pour le desktop via les Media Queries CSS. (<a href="#affichage-adaptatif">Breakpoints</a>)</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Accessibilité UI</strong></td>
-<td style="text-align:left">Conception inclusive pour les personnes en situation de handicap (contrastes suffisants, polices inclusives).<br>Obligation d'utiliser <code>rem</code> pour les tailles de polices (interdiction d'utiliser <code>px</code>).<br>Respecter les critères du <a href="https://accessibilite.numerique.gouv.fr/" target="_blank">Référentiel général d’amélioration de l’accessibilité</a></td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Accessibilité DYS</strong></td>
-<td style="text-align:left">L'interface doit proposer un mécanisme (bouton ou interrupteur) permettant de basculer l'ensemble des textes en police OpenDyslexic pour les utilisateurs concernés.</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Loi de Fitts</strong></td>
-<td style="text-align:left">Tous les éléments cliquables (liens, boutons, icônes) doivent avoir une taille cible minimale de 44px * 44px sur mobile (via du padding si nécessaire)</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Defensive Design</strong></td>
-<td style="text-align:left">L'interface ne doit JAMAIS casser si un titre, un texte ou une image est plus long que prévu</td>
-</tr>
-</tbody>
-</table>
-<h2 id="couleurs-principales">Couleurs principales </h2>
-<p>Couleurs autorisées dans vos interfaces utilisateur.</p>
+<h1 id="icônes-utf-8-pour-applications-web">Icônes UTF-8 pour Applications Web </h1>
+<p><strong>Objectif</strong></p>
 <ul>
-<li>✅ Utilisez ces couleurs comme vous le souhaitez (texte, fond, bordure...)</li>
-<li>❌ Interdiction formelle d'utiliser d'autres couleurs
+<li>Enrichir l'interface d'une application web sans charger de ressources externes</li>
+</ul>
+<p><strong>Ressources</strong></p>
 <ul>
-<li>Sauf si explicitement indiqué dans les consignes du TP/projet</li>
+<li><a href="https://accessibilite.numerique.gouv.fr/">Référentiel d'accessibilité numérique</a></li>
+<li><a href="https://www.utf8icons.com/">Toutes les icônes UTF-8</a></li>
 </ul>
-</li>
+<p><strong>Conseil d'accessibilité (A11y)</strong></p>
+<ul>
+<li>Les lecteurs d'écran lisent la description textuelle native des émojis. Pour les icônes purement décoratives, <a href="https://developer.mozilla.org/fr/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-hidden">masquez-les</a> pour ne pas perturber la navigation des utilisateurs malvoyants :</li>
 </ul>
+<pre data-role="codeBlock" data-info="html" class="language-html html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">aria-hidden</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>🗑️<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span> Supprimer
+</code></pre><h1 id="communs">Communs </h1>
+<p>Ce tableau regroupe les caractères Unicode les plus utilisés.</p>
 <table>
 <thead>
 <tr>
-<th>Couleur</th>
-<th>Identifiant</th>
-<th>HEX</th>
-<th>Description / Utilisation</th>
-<th>Couleur Texte si utilisée en background</th>
+<th style="text-align:center">Icône</th>
+<th style="text-align:left">Nom</th>
+<th style="text-align:left">Utilisation</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span class="body-bg"></span></td>
-<td>body-bg</td>
-<td><code>#F5F5F5</code></td>
-<td>Clair (générique)</td>
-<td>Sombre</td>
+<td style="text-align:center"><strong>Actions &amp; Contrôles</strong></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
 </tr>
 <tr>
-<td><span class="body-cl"></span></td>
-<td>body-cl</td>
-<td><code>#111111</code></td>
-<td>Sombre (générique)</td>
-<td>Clair</td>
+<td style="text-align:center">🔍</td>
+<td style="text-align:left">Loupe</td>
+<td style="text-align:left">Barre de recherche</td>
 </tr>
 <tr>
-<td><span class="surface-bg"></span></td>
-<td>surface-bg</td>
-<td><code>#FFFFFF</code></td>
-<td>Fond des cartes et éléments d'interface</td>
-<td>Sombre</td>
+<td style="text-align:center">⚙️</td>
+<td style="text-align:left">Engrenage</td>
+<td style="text-align:left">Paramètres / Configuration</td>
 </tr>
 <tr>
-<td><span class="crm-primary"></span></td>
-<td>crm-primary</td>
-<td><code>#1b296a</code></td>
-<td>Couleur primaire CRM</td>
-<td>Clair</td>
+<td style="text-align:center">🗑️</td>
+<td style="text-align:left">Poubelle</td>
+<td style="text-align:left">Supprimer un élément</td>
 </tr>
 <tr>
-<td><span class="crm-secondary"></span></td>
-<td>crm-secondary</td>
-<td><code>#ed6840</code></td>
-<td>Couleur secondaire CRM</td>
-<td>Clair</td>
+<td style="text-align:center">✏️</td>
+<td style="text-align:left">Crayon</td>
+<td style="text-align:left">Modifier / Éditer</td>
 </tr>
 <tr>
-<td><span class="crm-rf"></span></td>
-<td>crm-rf</td>
-<td><code>#cf2d4f</code></td>
-<td>Rouge CRM/RF</td>
-<td>Clair</td>
+<td style="text-align:center">➕</td>
+<td style="text-align:left">Plus</td>
+<td style="text-align:left">Ajouter / Créer</td>
 </tr>
 <tr>
-<td><span class="crm-ofp"></span></td>
-<td>crm-ofp</td>
-<td><code>#7db9da</code></td>
-<td>Bleu CRM/OFP</td>
-<td>Sombre</td>
+<td style="text-align:center">❌</td>
+<td style="text-align:left">Croix</td>
+<td style="text-align:left">Fermer / Annuler</td>
 </tr>
 <tr>
-<td><span class="crm-services"></span></td>
-<td>crm-services</td>
-<td><code>#f6af2e</code></td>
-<td>Jaune CRM/Services</td>
-<td>Sombre</td>
+<td style="text-align:center">💾</td>
+<td style="text-align:left">Disquette</td>
+<td style="text-align:left">Sauvegarder</td>
 </tr>
 <tr>
-<td><span class="crm-mecenat"></span></td>
-<td>crm-mecenat</td>
-<td><code>#488287</code></td>
-<td>Bleu/Vert CRM/Mecenat</td>
-<td>Clair</td>
+<td style="text-align:center"><strong>Navigation &amp; Listes</strong></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:center">🏠</td>
+<td style="text-align:left">Maison</td>
+<td style="text-align:left">Accueil / Dashboard</td>
+</tr>
+<tr>
+<td style="text-align:center">🔔</td>
+<td style="text-align:left">Cloche</td>
+<td style="text-align:left">Notifications</td>
+</tr>
+<tr>
+<td style="text-align:center">📂</td>
+<td style="text-align:left">Dossier ouvert</td>
+<td style="text-align:left">Gestionnaire de fichiers</td>
+</tr>
+<tr>
+<td style="text-align:center">📄</td>
+<td style="text-align:left">Document</td>
+<td style="text-align:left">Fiche / Article / Log</td>
+</tr>
+<tr>
+<td style="text-align:center">🔗</td>
+<td style="text-align:left">Maillon</td>
+<td style="text-align:left">Lien hypertexte / Copier le lien</td>
+</tr>
+<tr>
+<td style="text-align:center">≡</td>
+<td style="text-align:left">Menu</td>
+<td style="text-align:left">Menu responsive</td>
+</tr>
+<tr>
+<td style="text-align:center">🍔</td>
+<td style="text-align:left">Menu</td>
+<td style="text-align:left">Menu responsive (alternative burger)</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>Statuts &amp; Validation</strong></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:center">✅</td>
+<td style="text-align:left">Coché vert</td>
+<td style="text-align:left">Succès / Validation / Terminé</td>
+</tr>
+<tr>
+<td style="text-align:center">⚠️</td>
+<td style="text-align:left">Triangle alerte</td>
+<td style="text-align:left">Avertissement / Attention</td>
+</tr>
+<tr>
+<td style="text-align:center">🛑</td>
+<td style="text-align:left">Panneau Stop</td>
+<td style="text-align:left">Erreur critique / Blocage</td>
+</tr>
+<tr>
+<td style="text-align:center">ℹ️</td>
+<td style="text-align:left">Information</td>
+<td style="text-align:left">Bulle d'aide / Tooltip</td>
+</tr>
+<tr>
+<td style="text-align:center">⏳</td>
+<td style="text-align:left">Sablier</td>
+<td style="text-align:left">Chargement / En cours</td>
+</tr>
+<tr>
+<td style="text-align:center">🔒</td>
+<td style="text-align:left">Cadenas fermé</td>
+<td style="text-align:left">Sécurisé / Privé / Connexion</td>
+</tr>
+<tr>
+<td style="text-align:center">🔓</td>
+<td style="text-align:left">Cadenas ouvert</td>
+<td style="text-align:left">Déverrouillé / Public</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>Flèches de Direction</strong></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:center">⬅️</td>
+<td style="text-align:left">Flèche Gauche</td>
+<td style="text-align:left">Retour / Précédent</td>
+</tr>
+<tr>
+<td style="text-align:center">➡️</td>
+<td style="text-align:left">Flèche Droite</td>
+<td style="text-align:left">Suivant / Continuer</td>
+</tr>
+<tr>
+<td style="text-align:center">🔼</td>
+<td style="text-align:left">Triangle Haut</td>
+<td style="text-align:left">Tri croissant / Collapse</td>
+</tr>
+<tr>
+<td style="text-align:center">🔽</td>
+<td style="text-align:left">Triangle Bas</td>
+<td style="text-align:left">Tri décroissant / Accordéon</td>
+</tr>
+<tr>
+<td style="text-align:center">🔄</td>
+<td style="text-align:left">Flèches rotatives</td>
+<td style="text-align:left">Actualiser / Synchroniser</td>
 </tr>
 </tbody>
 </table>
-<h2 id="couleurs-actions--évènements">Couleurs Actions / Évènements </h2>
-<p>Pour gérer les actions et les messages de notification, utilisez obligatoirement les couleurs suivantes :</p>
+<h2 id="contextes-métier">Contextes Métier </h2>
+<p>Ces icônes permettent de contextualiser rapidement des fonctionnalités dans des applications sectorielles (E-commerce, Logistique, Finance, IoT, RH).</p>
 <table>
 <thead>
 <tr>
-<th>Couleur</th>
-<th>Identifiant</th>
-<th>HEX</th>
-<th>Description / Utilisation</th>
+<th style="text-align:center">Icône</th>
+<th style="text-align:left">Nom</th>
+<th style="text-align:left">Contexte d'application / Usage cible</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span class="crm-error"></span></td>
-<td>crm-error</td>
-<td><a class="tag" data-tag="d32f2f" href="tag://d32f2f">#d32f2f</a></td>
-<td>Message d'erreur</td>
+<td style="text-align:center"><strong>Logistique &amp; E-Commerce</strong></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
 </tr>
 <tr>
-<td><span class="crm-warning"></span></td>
-<td>crm-warning</td>
-<td><a class="tag" data-tag="e67e22" href="tag://e67e22">#e67e22</a></td>
-<td>Message d'avertissement</td>
+<td style="text-align:center">📦</td>
+<td style="text-align:left">Colis / Paquet</td>
+<td style="text-align:left">Gestion de stock, expéditions, livraison</td>
 </tr>
 <tr>
-<td><span class="crm-info"></span></td>
-<td>crm-info</td>
-<td><a class="tag" data-tag="0288d1" href="tag://0288d1">#0288d1</a></td>
-<td>Message d'information</td>
+<td style="text-align:center">🛒</td>
+<td style="text-align:left">Caddie / Panier</td>
+<td style="text-align:left">Processus d'achat, commande en cours</td>
 </tr>
 <tr>
-<td><span class="crm-success"></span></td>
-<td>crm-success</td>
-<td><a class="tag" data-tag="2e7d32" href="tag://2e7d32">#2e7d32</a></td>
-<td>Message de succès/validation</td>
+<td style="text-align:center">🏷️</td>
+<td style="text-align:left">Étiquette</td>
+<td style="text-align:left">Catégories, tags, promotions, prix</td>
+</tr>
+<tr>
+<td style="text-align:center">🚚</td>
+<td style="text-align:left">Camion de livraison</td>
+<td style="text-align:left">Suivi de colis, transport, logistique</td>
+</tr>
+<tr>
+<td style="text-align:center">🏢</td>
+<td style="text-align:left">Entrepôt / Bureau</td>
+<td style="text-align:left">Gestion des dépôts, inventaire physique</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>Finance, ERP &amp; Analytics</strong></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:center">💳</td>
+<td style="text-align:left">Carte bancaire</td>
+<td style="text-align:left">Moyens de paiement, abonnements, facturation</td>
+</tr>
+<tr>
+<td style="text-align:center">📈</td>
+<td style="text-align:left">Graphique croissant</td>
+<td style="text-align:left">Statistiques, analytics, KPIs, croissance</td>
+</tr>
+<tr>
+<td style="text-align:center">📉</td>
+<td style="text-align:left">Graphique décroissant</td>
+<td style="text-align:left">Pertes, alertes de baisse, anomalies de trafic</td>
+</tr>
+<tr>
+<td style="text-align:center">🧾</td>
+<td style="text-align:left">Reçu / Facture</td>
+<td style="text-align:left">Comptabilité, pièces jointes, historiques d'achats</td>
+</tr>
+<tr>
+<td style="text-align:center">💰</td>
+<td style="text-align:left">Sac d'argent</td>
+<td style="text-align:left">Budgets, chiffres d'affaires, profits</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>Utilisateurs &amp; Ressources Humaines</strong></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:center">👤</td>
+<td style="text-align:left">Profil / Utilisateur</td>
+<td style="text-align:left">Compte client, espace personnel</td>
+</tr>
+<tr>
+<td style="text-align:center">👥</td>
+<td style="text-align:left">Groupe / Équipe</td>
+<td style="text-align:left">Collaborateurs, rôles, gestion des droits (ACL)</td>
+</tr>
+<tr>
+<td style="text-align:center">🔑</td>
+<td style="text-align:left">Clé</td>
+<td style="text-align:left">Authentification, jetons d'API, accès</td>
+</tr>
+<tr>
+<td style="text-align:center">📆</td>
+<td style="text-align:left">Calendrier</td>
+<td style="text-align:left">Prise de rendez-vous, planning, deadlines</td>
+</tr>
+<tr>
+<td style="text-align:center">🎓</td>
+<td style="text-align:left">Toque d'étudiant</td>
+<td style="text-align:left">Modules de formation, e-learning, compétences</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>Technique &amp; IoT (Internet des Objets)</strong></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:center">📱</td>
+<td style="text-align:left">Smartphone</td>
+<td style="text-align:left">Application mobile, responsive, terminaux</td>
+</tr>
+<tr>
+<td style="text-align:center">📲</td>
+<td style="text-align:left">Tablette</td>
+<td style="text-align:left">Application Mobile, Responsive, terminaux</td>
+</tr>
+<tr>
+<td style="text-align:center">💻</td>
+<td style="text-align:left">Laptop</td>
+<td style="text-align:left">Ordinateur portable, clients légers</td>
+</tr>
+<tr>
+<td style="text-align:center">🖥️</td>
+<td style="text-align:left">Écran d'ordinateur</td>
+<td style="text-align:left">Monitoring de serveurs, clients légers</td>
+</tr>
+<tr>
+<td style="text-align:center">🖨️</td>
+<td style="text-align:left">Imprimante</td>
+<td style="text-align:left">Bouton imprimer</td>
+</tr>
+<tr>
+<td style="text-align:center">📡</td>
+<td style="text-align:left">Antenne</td>
+<td style="text-align:left">Statut réseau, signal Wi-Fi / Bluetooth, IoT</td>
+</tr>
+<tr>
+<td style="text-align:center">🔋</td>
+<td style="text-align:left">Batterie</td>
+<td style="text-align:left">État de charge, économie d'énergie, capteurs</td>
+</tr>
+<tr>
+<td style="text-align:center">⚡</td>
+<td style="text-align:left">Éclair</td>
+<td style="text-align:left">Performance, exécution rapide, action immédiate</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>Communication &amp; Support</strong></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:center">✉️</td>
+<td style="text-align:left">Enveloppe</td>
+<td style="text-align:left">Courriels, messagerie interne, contact</td>
+</tr>
+<tr>
+<td style="text-align:center">💬</td>
+<td style="text-align:left">Bulle de dialogue</td>
+<td style="text-align:left">Chat, commentaires, retours utilisateurs</td>
+</tr>
+<tr>
+<td style="text-align:center">🙋</td>
+<td style="text-align:left">Personne qui lève la main</td>
+<td style="text-align:left">Support client, aide, ticket ouvert</td>
+</tr>
+<tr>
+<td style="text-align:center">🗺️</td>
+<td style="text-align:left">Carte géographique</td>
+<td style="text-align:left">Localisation, adresses de livraison, agences</td>
 </tr>
 </tbody>
 </table>
-<hr>
-<h2 id="polices">Polices </h2>
-<p>Sauf mention contraire, utilisez les polices suivantes.<br>
-Pour le corps de la page <code>crm-txt-body</code>, choisissez Verdana <strong>OU</strong> Arial.</p>
+<h1 id="alimentaire--restauration">Alimentaire &amp; Restauration </h1>
+<p>Ces icônes sont idéales pour catégoriser des menus, des ingrédients, des allergènes ou des types de distributeurs.</p>
 <table>
 <thead>
 <tr>
-<th style="text-align:left">Police</th>
-<th style="text-align:left">Identifiant</th>
-<th style="text-align:left">Description / Utilisation</th>
+<th style="text-align:center">Icône</th>
+<th style="text-align:left">Nom</th>
+<th style="text-align:left">Exemple d'utilisation</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left"><span style="font-family: 'Georgia', serif;">Georgia, serif</span></td>
-<td style="text-align:left">crm-txt-header</td>
-<td style="text-align:left">Titres, entêtes</td>
+<td style="text-align:center"><strong>Boissons (Chaudes &amp; Froides)</strong></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
 </tr>
 <tr>
-<td style="text-align:left"><span style="font-family: 'Verdana', sans-serif;">Verdana, sans-serif</span></td>
-<td style="text-align:left">crm-txt-body</td>
-<td style="text-align:left">Textes, corps de la page, formulaires</td>
+<td style="text-align:center">☕</td>
+<td style="text-align:left">Tasse chaude</td>
+<td style="text-align:left">Cafés, thés, boissons chaudes du distributeur</td>
 </tr>
 <tr>
-<td style="text-align:left"><span style="font-family: 'Arial', sans-serif;">OpenDyslexic</span></td>
-<td style="text-align:left">crm-txt-dys</td>
-<td style="text-align:left">Accessibilité<br>Faciliter la lecture pour les personnes dyslexiques<br><a href="https://opendyslexic.org/" target="_blank">A télécharger sur le site officiel</a></td>
+<td style="text-align:center">🥤</td>
+<td style="text-align:left">Gobelet avec paille</td>
+<td style="text-align:left">Sodas, jus de fruits, boissons froides</td>
+</tr>
+<tr>
+<td style="text-align:center">🥛</td>
+<td style="text-align:left">Verre de lait</td>
+<td style="text-align:left">Produits laitiers, allergène lactose</td>
+</tr>
+<tr>
+<td style="text-align:center">🍼</td>
+<td style="text-align:left">Biberon</td>
+<td style="text-align:left">Menu bébé, section petite enfance</td>
+</tr>
+<tr>
+<td style="text-align:center">🍺</td>
+<td style="text-align:left">Chope de bière</td>
+<td style="text-align:left">Boissons alcoolisées, bar, validation d'âge requis</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>Plats &amp; Restauration Rapide</strong></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:center">🍔</td>
+<td style="text-align:left">Burger</td>
+<td style="text-align:left">Restauration rapide, snacks, sandwichs</td>
+</tr>
+<tr>
+<td style="text-align:center">🍕</td>
+<td style="text-align:left">Part de pizza</td>
+<td style="text-align:left">Plats à partager, cuisine italienne</td>
+</tr>
+<tr>
+<td style="text-align:center">🥪</td>
+<td style="text-align:left">Sandwich</td>
+<td style="text-align:left">En-cas, options de déjeuner rapide</td>
+</tr>
+<tr>
+<td style="text-align:center">🥗</td>
+<td style="text-align:left">Salade verte</td>
+<td style="text-align:left">Plats végétariens, options saines, crudités</td>
+</tr>
+<tr>
+<td style="text-align:center">🍜</td>
+<td style="text-align:left">Bol de nouilles</td>
+<td style="text-align:left">Cuisine asiatique, plats chauds en bol</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>Ingrédients de Base &amp; Allergènes</strong></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:center">🌾</td>
+<td style="text-align:left">Épi de blé</td>
+<td style="text-align:left">Céréales, féculents, présence de gluten</td>
+</tr>
+<tr>
+<td style="text-align:center">🥩</td>
+<td style="text-align:left">Morceau de viande</td>
+<td style="text-align:left">Viande rouge, rayon boucherie, plat non végétarien</td>
+</tr>
+<tr>
+<td style="text-align:center">🍗</td>
+<td style="text-align:left">Cuisse de poulet</td>
+<td style="text-align:left">Volaille, viande blanche</td>
+</tr>
+<tr>
+<td style="text-align:center">🐟</td>
+<td style="text-align:left">Poisson</td>
+<td style="text-align:left">Poissons, fruits de mer, allergène poisson</td>
+</tr>
+<tr>
+<td style="text-align:center">🥚</td>
+<td style="text-align:left">Œuf</td>
+<td style="text-align:left">Ingrédient de base, allergène œuf</td>
+</tr>
+<tr>
+<td style="text-align:center">🥜</td>
+<td style="text-align:left">Cacahuète</td>
+<td style="text-align:left">Fruits à coque, allergène arachide</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>Fruits &amp; Sucreries</strong></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:center">🍎</td>
+<td style="text-align:left">Pomme rouge</td>
+<td style="text-align:left">Fruits, desserts sains, nutrition</td>
+</tr>
+<tr>
+<td style="text-align:center">🍫</td>
+<td style="text-align:left">Tablette de chocolat</td>
+<td style="text-align:left">Confiseries, options sucrées du distributeur</td>
+</tr>
+<tr>
+<td style="text-align:center">🍪</td>
+<td style="text-align:left">Cookie</td>
+<td style="text-align:left">Biscuits, encas pour le café</td>
+</tr>
+<tr>
+<td style="text-align:center">🍦</td>
+<td style="text-align:left">Glace italienne</td>
+<td style="text-align:left">Desserts glacés, rafraîchissements</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>Ustensiles &amp; Statuts de Commande</strong></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:center">🍽️</td>
+<td style="text-align:left">Assiette et couverts</td>
+<td style="text-align:left">Menu complet, service à table, section restaurant</td>
+</tr>
+<tr>
+<td style="text-align:center">🔪</td>
+<td style="text-align:left">Couteau de cuisine</td>
+<td style="text-align:left">Recettes, temps de préparation, mode cuisine</td>
+</tr>
+<tr>
+<td style="text-align:center">👨‍🍳</td>
+<td style="text-align:left">Cuisinier / Chef</td>
+<td style="text-align:left">Recommandation du chef, préparation en cours</td>
+</tr>
+<tr>
+<td style="text-align:center">🥡</td>
+<td style="text-align:left">Boîte à emporter</td>
+<td style="text-align:left">Commande prête, option "à emporter"</td>
 </tr>
 </tbody>
 </table>
-<h2 id="affichage-adaptatif">Affichage adaptatif </h2>
-<p>Sauf mention contraire, utilisez les points de rupture suivants :</p>
-<table>
-<thead>
-<tr>
-<th>Catégorie</th>
-<th>Largeur</th>
-<th>Usage</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>📱 Mobile</td>
-<td>0 – 767px</td>
-<td>-</td>
-</tr>
-<tr>
-<td>📲 Tablet</td>
-<td>≥ 768px</td>
-<td><code>@media (min-width: 768px) { }</code></td>
-</tr>
-<tr>
-<td>💻 Laptop</td>
-<td>≥ 1024px</td>
-<td><code>@media (min-width: 1024px) { }</code></td>
-</tr>
-<tr>
-<td>🖥️ Desktop large</td>
-<td>≥ 1280px</td>
-<td><code>@media (min-width: 1280px) { }</code></td>
-</tr>
-<tr>
-<td>🖥️ XXL</td>
-<td>≥ 1600px</td>
-<td><code>@media (min-width: 1600px) { }</code></td>
-</tr>
-<tr>
-<td>🖨️ Imprimantes</td>
-<td>A4 (21cm * 29.7cm)</td>
-<td><code>@media print { }</code></td>
-</tr>
-</tbody>
-</table>
-<h2 id="css-de-base">CSS de base </h2>
-<p><a href="./docs/css/crm-main.css" target="_blank">CSS de base</a> pour le démarrage de vos projets.</p>
-<pre data-role="codeBlock" data-info="css" class="language-css css"><code><span class="token selector"><span class="token pseudo-class">:root</span></span> <span class="token punctuation">{</span>
-    <span class="token variable">--body-bg</span><span class="token punctuation">:</span> <span class="token hexcode color">#F5F5F5</span><span class="token punctuation">;</span>
-    <span class="token variable">--body-cl</span><span class="token punctuation">:</span> <span class="token hexcode color">#111111</span><span class="token punctuation">;</span>
-    <span class="token variable">--surface-bg</span><span class="token punctuation">:</span> <span class="token hexcode color">#FFFFFF</span><span class="token punctuation">;</span>   <span class="token comment">/* Fond des cartes et éléments d'interface */</span>
 
-    <span class="token comment">/* Couleurs du thème CRM */</span>
-    <span class="token variable">--crm-primary</span><span class="token punctuation">:</span> <span class="token hexcode color">#1b296a</span><span class="token punctuation">;</span>
-    <span class="token variable">--crm-secondary</span><span class="token punctuation">:</span> <span class="token hexcode color">#ed6840</span><span class="token punctuation">;</span>
-    <span class="token variable">--crm-rf</span><span class="token punctuation">:</span> <span class="token hexcode color">#cf2d4f</span><span class="token punctuation">;</span>
-    <span class="token variable">--crm-ofp</span><span class="token punctuation">:</span> <span class="token hexcode color">#7db9da</span><span class="token punctuation">;</span>
-    <span class="token variable">--crm-services</span><span class="token punctuation">:</span> <span class="token hexcode color">#f6af2e</span><span class="token punctuation">;</span>
-    <span class="token variable">--crm-mecenat</span><span class="token punctuation">:</span> <span class="token hexcode color">#488287</span><span class="token punctuation">;</span>
-
-    <span class="token comment">/* Couleurs d'état / Événements */</span>
-    <span class="token variable">--crm-error</span><span class="token punctuation">:</span> <span class="token hexcode color">#d32f2f</span><span class="token punctuation">;</span>
-    <span class="token variable">--crm-warning</span><span class="token punctuation">:</span> <span class="token hexcode color">#e67e22</span><span class="token punctuation">;</span>
-    <span class="token variable">--crm-info</span><span class="token punctuation">:</span> <span class="token hexcode color">#0288d1</span><span class="token punctuation">;</span>
-    <span class="token variable">--crm-success</span><span class="token punctuation">:</span> <span class="token hexcode color">#2e7d32</span><span class="token punctuation">;</span>
-
-    <span class="token comment">/* Polices */</span>
-    <span class="token variable">--crm-txt-header</span><span class="token punctuation">:</span> Georgia<span class="token punctuation">,</span> serif<span class="token punctuation">;</span>
-    <span class="token variable">--crm-txt-body</span><span class="token punctuation">:</span> Verdana<span class="token punctuation">,</span> Geneva<span class="token punctuation">,</span> Tahoma<span class="token punctuation">,</span> sans-serif<span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-
-<span class="token atrule"><span class="token rule">@media</span> <span class="token punctuation">(</span><span class="token property">prefers-color-scheme</span><span class="token punctuation">:</span> dark<span class="token punctuation">)</span></span> <span class="token punctuation">{</span>
-    <span class="token selector"><span class="token pseudo-class">:root</span></span> <span class="token punctuation">{</span>
-        <span class="token comment">/* A implémenter : mode sombre */</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-
-<span class="token selector">body</span> <span class="token punctuation">{</span>
-    
-<span class="token punctuation">}</span>
-
-<span class="token selector">h1<span class="token punctuation">,</span> h2<span class="token punctuation">,</span> h3<span class="token punctuation">,</span> h4<span class="token punctuation">,</span> h5<span class="token punctuation">,</span> h6</span> <span class="token punctuation">{</span>
-    
-<span class="token punctuation">}</span>
-
-
-<span class="token atrule"><span class="token rule">@media</span> <span class="token punctuation">(</span><span class="token property">min-width</span><span class="token punctuation">:</span> <span class="token number">768</span><span class="token unit">px</span><span class="token punctuation">)</span></span> <span class="token punctuation">{</span> <span class="token punctuation">}</span>
-<span class="token atrule"><span class="token rule">@media</span> <span class="token punctuation">(</span><span class="token property">min-width</span><span class="token punctuation">:</span> <span class="token number">1024</span><span class="token unit">px</span><span class="token punctuation">)</span></span> <span class="token punctuation">{</span> <span class="token punctuation">}</span>
-<span class="token atrule"><span class="token rule">@media</span> <span class="token punctuation">(</span><span class="token property">min-width</span><span class="token punctuation">:</span> <span class="token number">1280</span><span class="token unit">px</span><span class="token punctuation">)</span></span> <span class="token punctuation">{</span> <span class="token punctuation">}</span>
-<span class="token atrule"><span class="token rule">@media</span> <span class="token punctuation">(</span><span class="token property">min-width</span><span class="token punctuation">:</span> <span class="token number">1600</span><span class="token unit">px</span><span class="token punctuation">)</span></span> <span class="token punctuation">{</span> <span class="token punctuation">}</span>
-<span class="token atrule"><span class="token rule">@media</span> print</span> <span class="token punctuation">{</span> <span class="token punctuation">}</span>
-</code></pre>
       </div>
       
       
