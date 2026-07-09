@@ -29,12 +29,18 @@ Ce tableau regroupe les caractères Unicode les plus utilisés.
 | ➕ | Plus | Ajouter / Créer |
 | ❌ | Croix | Fermer / Annuler |
 | 💾 | Disquette | Sauvegarder |
+| 💾 | Disquette | Sauvegarder |
 | **Navigation & Listes** | | |
 | 🏠 | Maison | Accueil / Dashboard |
 | 🔔 | Cloche | Notifications |
 | 📂 | Dossier ouvert | Gestionnaire de fichiers |
 | 📄 | Document | Fiche / Article / Log |
+| 📑 | Document2 | Sommaire, navigation dans un document |
 | 🔗 | Maillon | Lien hypertexte / Copier le lien |
+| 🗺️ | Carte | Carte, parcours, coordonnées |
+| 📍 | Marqueur | Point de repère |
+| 🚩 | Fanion | Destination ou étape |
+| 🧭 | Boussolle | Temps estimé, Navigation interne |
 | ≡ | Menu | Menu responsive |
 | 🍔 | Menu | Menu responsive (alternative burger) |
 | **Statuts & Validation** | | |
@@ -47,7 +53,9 @@ Ce tableau regroupe les caractères Unicode les plus utilisés.
 | 🔓 | Cadenas ouvert | Déverrouillé / Public |
 | **Flèches de Direction** | | |
 | ⬅️ | Flèche Gauche | Retour / Précédent |
+| 🔙 | Flèche Gauche | Retour / Précédent |
 | ➡️ | Flèche Droite | Suivant / Continuer |
+| ➜ | Flèche Droite | Suivant / Continuer |
 | 🔼 | Triangle Haut | Tri croissant / Collapse |
 | 🔽 | Triangle Bas | Tri décroissant / Accordéon |
 | 🔄 | Flèches rotatives| Actualiser / Synchroniser |
